@@ -1,0 +1,36 @@
+# Welcome to Amplified for Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: Jairo Honorio
+email: jairo@jahdsoft.com
+description: >
+  Software Engineer
+logo: "/assets/images/logo.jpg"
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://jairo.jahdsoft.com" # the base hostname & protocol for your site
+paginate:	5 # The number of posts to show per page on your homepage
+
+name: 'Jairo Honorio'
+bio: >
+  Consultant specialist in Android, LAMP Fullstack, and videogames.
+  I give my best effort at every activity.
+author_image: "/assets/images/author.jpg"
+twitter_username: JairoAHD
+github_username:  jahd2602
+
+# Google Analytics
+analytics_id: "UA-37438543-3"
+
+# Build settings
+markdown: kramdown
+
+kramdown:
+  parse_block_html: true
+
+gems:
+  - jekyll-paginate
