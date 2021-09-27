@@ -2,7 +2,9 @@
 
 # Get to Know Me
 
-Consultant specialist in Android, web development fullstack, and videogames development. I give my best effort at every activity.
+Jairo Honorio founded multiple companies including game studios such as JahdSoft and Javary, and led various teams up to 6 engineers. Today, Jairo is a Senior Software Engineer that works with AI virtual assistants in Smart Displays at Google.
+
+Jairo Honorio is a Software engineer specialist in Smart Displays Assistants, Android, LAMP Fullstack, MEAN Fullstack, and game engine development.
 
 [LinkedIn](https://pe.linkedin.com/in/jairohonorio): Review my past experiences and education.
 
