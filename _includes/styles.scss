@@ -1,5 +1,6 @@
 @import 'bourbon/bourbon';
 @import 'syntax-highlighting';
+@import '../_sass_theme/style-default.scss';
 
 $grey-color:       #828282;
 
@@ -519,4 +520,24 @@ pre {
 
 .pagination .disabled {
     opacity: 0;
+}
+
+
+
+// karen css
+.hero {
+  background-image: url(../assets/images/header-image.jpg);
+  background-size: cover;
+  height: 634px;
+  width: 100vw;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.jairo-field{
+  margin: 40px 80px;
+  display: flex;
+  flex-direction: column;
+
 }

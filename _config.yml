@@ -10,7 +10,7 @@ title: Jairo Honorio
 email: jairo@jahdsoft.com
 description: >
   Software Engineer
-logo: "/assets/images/logo.jpg"
+hero: "/assets/images/header-image.jpg"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://jairo.jahdsoft.com" # the base hostname & protocol for your site
 paginate:	5 # The number of posts to show per page on your homepage
