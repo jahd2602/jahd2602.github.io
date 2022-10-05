@@ -1,5 +1,5 @@
 
-company:
+companies:
   - name: Google
     logo: ./assets/images/logo-google.jpeg
     start: Feb, 2022

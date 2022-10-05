@@ -2,13 +2,29 @@
 layout: default
 ---
 
-<main class="content" role="main">
+<main role="main">
+  <div class="about-container">
+    <h1 class="about-title">{{ site.about.title }}</h1>
+    <h3 class="about-description">{{ site.about.description }}</h3>
+  </div>
 
-  <header class="blog-header">
+
+
+
+
+
+
+
+
+
+
+
+
+  <!--header class="blog-header">
       <h1 class="blog-title">{{ site.title }}</h1>
       <h2 class="blog-description">{{ site.description }}</h2>
   </header>
-  
+
 {% capture my_include %}{% include about.md %}{% endcapture %}
 {{ my_include | markdownify }}
 
@@ -28,7 +44,7 @@ layout: default
         </div>
       </article>
     {% endfor %}
-  </div>
+  </div-->
 
 </main>
 

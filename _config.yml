@@ -16,6 +16,8 @@ url: "https://jairo.jahdsoft.com" # the base hostname & protocol for your site
 paginate:	5 # The number of posts to show per page on your homepage
 
 name: 'Jairo Honorio'
+designed: Website designed by Karen Honorio
+karencontact: "https://www.linkedin.com/in/karen-caroline-honorio-banci-198827112/"
 bio: >
   Consultant specialist in Android, LAMP Fullstack, and videogames.
   I give my best effort at every activity.
@@ -34,3 +36,226 @@ kramdown:
 
 gems:
   - jekyll-paginate
+
+
+
+
+companies:
+  - name: Google
+    logo: ./assets/images/logo-google.jpeg
+    start: Feb, 2022
+    finish: Present
+    field: Senior Technical Solutions Consultant, Partner Engineer
+    description:
+    local: Mountain View, CA 🇺🇸
+    type: job
+
+  - name: Oppia Fundation
+    logo: ./assets/images/logo-google.jpeg
+    start: Feb, 2022
+    finish: Present
+    field: Software Engineer
+    description: Typescript, Angular, Jasmine, Mocka, Karma
+    local: Mountain View, CA 🇺🇸
+    type: volunteer
+
+  - name: Google
+    logo: ./assets/images/logo-google.jpeg
+    start: Oct, 2021
+    finish: Feb, 2022
+    field: Senior Technical Solutions Consultant, Partner Engineer (Assistant Smart Displays)
+    description:
+    local: São Paulo, SP 🇧🇷
+    type: job
+
+  - name: Google
+    logo: ./assets/images/logo-google.jpeg
+    start: Feb, 2020
+    finish: Oct, 2021
+    field: Technical Solutions Consultant, Partner Technology Manager (Assistant Smart Displays)
+    description:
+    local: São Paulo, SP 🇧🇷
+    type: job
+
+  - name: Google Summer of Code
+    logo: ./assets/images/logo-google.jpeg
+    start: Aug, 2019
+    finish: No expiration date
+    field: Mentor for Godot Engine & Mentor Summit Attendee in Münich
+    description:
+    local: Münich, Germany 🇩🇪
+    type: volunteer
+
+  - name: Javary Games
+    logo: ./assets/images/logo-google.jpeg
+    start: Mar, 2018
+    finish: Jan, 2020
+    field: CTO
+    description: "→ Recruit and lead a team of 6 software engineers, 1 music engineer and 1 software tester, plus working     with a team of designers and several contractors, to create casual and puzzle games for Android and iOS.
+      →  Objective-oriented workflow with high focus on app metrics: DAU, ARPU, D1-D7-D30 Retention, Conversion Rate, and more.
+      →  Create and maintain 10+ native plugins in Java and Objective-C, including Facebook SDK, Firebase, Azure's Playfab, and more.
+      →  Game engine development using Python, C++ and OpenGL, ensuring high crash-free users (99.98%) and high performance in low-end devices (60 fps).
+      →  Webserver on top of Amazon Web Services' Lambda server-less platform, attached to a cloud MongoDB instance through NodeJS + Typescript.
+      →  Use BigQuery language with Google's DataStudio Business Intelligence platform to produce highly relevant reports that directly impact and improve our products."
+    local: São Paulo, SP 🇧🇷
+    type: job
+
+  - name: Godot Engine
+    logo: ./assets/images/logo-google.jpeg
+    start: Jun, 2018
+    finish: Feb, 2021
+    field: Software Engineer
+    description: C++
+    local: USA 🇺🇸
+    type: volunteer
+
+  - name: Lead Consulting
+    logo: ./assets/images/logo-google.jpeg
+    start: Dec, 2017
+    finish: Jan, 2018
+    field: Mobile Application Developer - Contract
+    description: Developed an application for warehouse workers, that recognizes a variety of barcodes/QR codes, helps to     keep track of inventory and generates a format acceptable for a variety of ERPs.
+      Kotlin, Material Design, SQLite, ORMLite.
+    local: Lima, Peru 🇵🇪
+    type: job
+
+  - name: Ocean Partners UK Limited
+    logo: ./assets/images/logo-google.jpeg
+    start: Jun, 2017
+    finish: Sep, 2017
+    field: Full-Stack JavaScript Trainer and Consultant
+    description: Training in the JavaScript language, the JQuery library and the AngularJS framework, including the use of  other popular JavaScript libraries. On the server side, the usage of NodeJS, NPM and the HAPI server framework, including   the connection with SQL Server and Sharepoint.
+      Consulting services to improve legacy subsystems, gaining an important speed boost and improved the overall code organization. We could reduce the loading time of a particular big form from 20+ seconds to <500 ms.
+    local: Lima, Peru 🇵🇪
+    type: job
+
+  - name: CINFO UNMSM
+    logo: ./assets/images/logo-google.jpeg
+    start: Jan, 2017
+    finish: Mar, 2017
+    field: Professor
+    description: Introduced OOP and event driven programming concepts through a project-based methodology.
+    local: Lima, Peru 🇵🇪
+    type: job
+
+  - name: Instrategy
+    logo: ./assets/images/logo-google.jpeg
+    start: Aug, 2016
+    finish: Sep, 2016
+    field: ETL Consultor (Business Intelligence)
+    description: External consultor. Develop a business intelligence ETL strategy for a balance scorecard product deployment, and implement base ETL jobs in Talend Studio.
+    local: Lima, Peru 🇵🇪
+    type: job
+
+  - name: Universidad Privada Antenor Orrego
+    logo: ./assets/images/logo-google.jpeg
+    start: Oct, 2016
+    finish: No expiration date
+    field: Generador de código de servicios web basado en REST del lado del servidor a partir de archivos de configuración RAML
+    description: Flexible code generator tool to produce working web service code from a configuration file, supporting PHP (Silex, Doctrine) and Javascript (NodeJS, ExpressJS, Mongoose). Demo video https://www.youtube.com/watch?v=AufIRxuaS9w
+    local: Trujillo, Peru 🇵🇪
+    type: education
+
+  - name: Escalabs
+    logo: ./assets/images/logo-google.jpeg
+    start: Oct, 2015
+    finish: May, 2016
+    field: Project Manager & Tech Lead
+    description: I helped develop the business intelligence backend for the marketing area with a small team.
+    local: Trujillo, Peru 🇵🇪
+    type: job
+
+  - name: Jorvex
+    logo: ./assets/images/logo-google.jpeg
+    start: Jun, 2015
+    finish: Aug, 2015
+    field: Full stack Software Developer
+    description: My job was to finish the development of a hybrid mobile app for a hardware store company. Some features included geolocation tracking of salespeople and clients, product catalog and inventory. Stack, PostgreSQL, Java Servlets, JQuery Mobile, Google Maps API.
+    local: Trujillo, Peru 🇵🇪
+    type: job
+
+  - name: Treto Enterprises
+    logo: ./assets/images/logo-google.jpeg
+    start: Nov, 2014
+    finish: Nov, 2018
+    field: Main Software Engineer at Treto Enterprises
+    description: → Optimized most used site queries up to 46X leading to a 42.3% increase in page hits.
+      → Maintenance and server administration of BuenaMusica.com, a website with 2M+ monthly visitors.
+      → Design and development of AcontencerMundial.com.
+      → Developed the Android app and other third party solutions, with published MVPs taking less than a week.
+      → AngularJS, PHP, MySql, CentOs, Ubuntu, Android.
+    local: San Diego, CA 🇺🇸
+    type: job
+
+  - name: MelodiaCristiana.com
+    logo: ./assets/images/logo-google.jpeg
+    start: May, 2014
+    finish: Jun, 2014
+    field: Mobile Web Software Developer
+    description: App development, published in Play Store. Development of the site administration panel. Mobile Angular UI, AngularJS, Phonegap, Android.
+    local: Lima, Peru 🇵🇪
+    type: job
+
+  - name: Vanderbilt University
+    logo: ./assets/images/logo-google.jpeg
+    start: Sep, 2014
+    finish: No expiration date
+    field: Programming Cloud Services for Android Handheld Systems
+    description:
+    local: Trujillo, Peru 🇵🇪
+    type: education
+
+  - name: CURSOR S.A.
+    logo: ./assets/images/logo-google.jpeg
+    start: Dec, 2013
+    finish: No expiration date
+    field: Finalist in Apps Tournament - Sponsored by Google - Santiago de Chile
+    description:
+    local: Santiago, Chile 🇨🇱
+    type: education
+
+  - name: Universidad Privada Antenor Orrego
+    logo: ./assets/images/logo-google.jpeg
+    start: Nov, 2013
+    finish: No expiration date
+    field: 1st Place - Programming Contest - Intermediate Level - CIISSIT
+    description:
+    local: Trujillo, Peru 🇵🇪
+    type: education
+
+  - name: Universidad Nacional de Trujillo
+    logo: ./assets/images/logo-google.jpeg
+    start: Feb, 2013
+    finish: No expiration date
+    field: 1st Place - Programming Contest - A Category - SECICOMP
+    description:
+    local: Trujillo, Peru 🇵🇪
+    type: education
+
+  - name: JAHD Soft
+    logo: ./assets/images/logo-google.jpeg
+    start: Aug, 2012
+    finish: Feb, 2018
+    field: Founder, Software Developer and Project Manager at JAHD Soft
+    description: Software development. We make Android, iOS and Web Apps. We have 5+ years working with clients from all around the world.
+    local: Lima, Peru 🇵🇪
+    type: job
+
+  - name: Universidad Privada Antenor Orrego
+    logo: ./assets/images/logo-google.jpeg
+    start: Nov, 2012
+    finish: No expiration date
+    field: 1st Place - Techonologic Fair - CIISS
+    description:
+    local: Trujillo, Peru 🇵🇪
+    type: education
+
+about:
+  title: About <br> me
+  description: Jairo Honorio founded multiple companies including game studios such as JahdSoft and Javary, and led various teams up to 6 engineers. Today, Jairo is a Senior Software Engineer that works with AI virtual assistants in Smart Displays and Wearables at Google.
+
+contact:
+  title: Let's Talk!
+  description: I build product used by millions. My mission is to be as helpful as possible and bringing joy to people. I can't wait to hear about you!
+  linkedin: Linkedin
+  email: jairo@jahdsoft.com
