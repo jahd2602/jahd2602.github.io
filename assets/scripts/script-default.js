@@ -1,2 +1,2 @@
-import scrollToPosition from "./scroll-page"
-import { closeModal, openModal } from "./script-modal";
+// import scrollToPosition from "./scroll-page"
+import "./script-modal.js";

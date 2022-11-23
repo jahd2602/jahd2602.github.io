@@ -1,67 +1,80 @@
 <body>
-  <div class="background-timeline-title">
-  </div>
+  <div class="background-timeline-title"></div>
   <div class="timeline-title">
     <h1>{{ site.timeline }}</h1>
   </div>
   <div class="timeline">
-    <div class="line-dotted-spaced-vertical">
-    </div>
-    {%  for company in site.companies %}
-    <div class="timeline-story cards" >
-      <div class="information-start-type information-right information-left">
-        <div class="line-dotted-spaced-horizontal line-dotted-right line-dotted-left">
-          <span class="status-story line-dotted-right line-dotted-left">⚫️</span>
+    <div class="line-dotted-spaced-vertical"></div>
+    {% for company in site.companies %}
+    <div class="cards">
+      <div class="timeline-story">
+        <div class="information-start-type information-right information-left">
+          <div
+            class="line-dotted-spaced-horizontal line-dotted-right line-dotted-left"
+          >
+            <span class="status-story line-dotted-right line-dotted-left"
+              >⚫️</span
+            >
+          </div>
+          <h3 id="company-start">{{company.start}}</h3>
+          <h3 id="company-type">{{company.type}}</h3>
         </div>
-        <h3 id="company-start">{{company.start}}</h3>
-        <h3 id="company-type">{{company.type}}</h3>
-      </div>
 
-      <div class="card-informations" onclick="openModal()">
-        <div id="logo-card-company">
-          <img id="company-logo" src="{{company.logo}}" alt="">
-        </div>
-        <div class="information-field">
-          <h3 id="company-name">{{company.name}}</h3>
-          <h4 id="company-field">{{company.field}}</h4>
-          <h5 class="company-local">{{company.local}}</h5>
-        </div>
-      </div>
-    </div>
-    <!-- MODAL TIMELINE CONTENT -->
-    <div class="modal-timeline">
-      <div class="modal-top">
-        <div class="modal-time-to-work timeline-local">
-          {{company.start}} - {{company.finish}}
-        </div>
-        <button class="btn-default btn-close-modal" id="closeModal" onclick="closeModal()">X</button>
-      </div>
-      <div class="modal-content">
-        <div class="modal-header">
-          <img id="modal-company-logo" src="{{company.logo}}" alt="">
-          <div class="modal-header-content">
-            <h4 class="modal-header-name-company">{{company.name}}</h4>
-            <h4 class="modal-header-field-company">{{company.field}}</h4>
+        <div class="card-informations" onclick="openModal(event, {{forloop.index}})" >
+          <div id="logo-card-company">
+            <img id="company-logo" src="{{company.logo}}" alt="" />
+          </div>
+          <div class="information-field">
+            <h3 id="company-name">{{company.name}} {{forloop.index}}</h3>
+            <h4 id="company-field">{{company.field}}</h4>
+            <h5 class="company-local">{{company.local}}</h5>
           </div>
         </div>
-        <div class="modal-content-description">
-          <p>{{company.description}}</p>
+      </div>
+      <div class="modal-timeline modal-opened" id="modal-{{forloop.index}}" style="display: none;">
+        <div class="modal-top">
+          <div class="modal-time-to-work timeline-local">
+            {{company.start}} - {{company.finish}}
+          </div>
+          <button
+            class="btn-default btn-close-modal"
+            id="closeModal"
+            onclick="closeModal(event, {{forloop.index}})"
+          >
+            X
+          </button>
         </div>
-        <h5 class="timeline-local modal-local-company">{{company.local}}</h5>
+        <div class="modal-content">
+          <div class="modal-header">
+            <img id="modal-company-logo" src="{{company.logo}}" alt="" />
+            <div class="modal-header-content">
+              <h4 class="modal-header-name-company">{{company.name}}</h4>
+              <h4 class="modal-header-field-company">{{company.field}}</h4>
+            </div>
+          </div>
+          <div class="modal-content-description">
+            <p>{{company.description}}</p>
+          </div>
+          <h5 class="timeline-local modal-local-company">{{company.local}}</h5>
+        </div>
       </div>
     </div>
     {% endfor %}
-
   </div>
 
-  <div class="see-more-background scrollable-in scrollable-out collapse in" >
+  <div class="see-more-background scrollable-in scrollable-out collapse in">
     <div class="button-expand">
-      <button class="btn-see-more btn-see-less btn-default" data-toggle="collapse">v</button>
+      <button
+        class="btn-see-more btn-see-less btn-default"
+        data-toggle="collapse"
+      >
+        v
+      </button>
       <h4 class="see-more">See more</h4>
       <h4 class="see-less">See less</h4>
     </div>
     <div class="container-lets-talk">
-      <h3 id="title-contact" >{{ site.contact.title }}</h3>
+      <h3 id="title-contact">{{ site.contact.title }}</h3>
     </div>
     <div class="information-container">
       <div class="data-contact">
@@ -70,16 +83,36 @@
         </div>
         <div class="data-social-media">
           <div class="content-linkedin">
-            <a href="https://www.linkedin.com/in/jairohonorio/" target="_blank"><i class="fa-brands fa-linkedin social-icons"></i></a>
-            <a href="https://www.linkedin.com/in/jairohonorio/" target="_blank" class="font-social-media">{{ site.contact.linkedin }}</a>
+            <a href="https://www.linkedin.com/in/jairohonorio/" target="_blank"
+              ><i class="fa-brands fa-linkedin social-icons"></i
+            ></a>
+            <a
+              href="https://www.linkedin.com/in/jairohonorio/"
+              target="_blank"
+              class="font-social-media"
+              >{{ site.contact.linkedin }}</a
+            >
           </div>
-        <div class="content-email">
-          <a href="mailto:{{ site.email}}" target="_blank"><i class="fa-solid fa-envelope social-icons"></i></a>
-          <a href="mailto:{{ site.email}}" target="_blank" class="font-social-media">{{ site.contact.email }}</a>
-        </div>
+          <div class="content-email">
+            <a href="mailto:{{ site.email}}" target="_blank"
+              ><i class="fa-solid fa-envelope social-icons"></i
+            ></a>
+            <a
+              href="mailto:{{ site.email}}"
+              target="_blank"
+              class="font-social-media"
+              >{{ site.contact.email }}</a
+            >
+          </div>
         </div>
       </div>
-      <div><img  class="image-contact" src="./assets/images/contact-image.jpg" alt="Jairo in San Francisco front of Golden Gate" /></div>
+      <div>
+        <img
+          class="image-contact"
+          src="./assets/images/contact-image.jpg"
+          alt="Jairo in San Francisco front of Golden Gate"
+        />
+      </div>
     </div>
   </div>
 </body>

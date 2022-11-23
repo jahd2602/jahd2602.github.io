@@ -49,11 +49,21 @@
 
 }
 
+.cards {
+  width: 100%;
+  display: contents;
+
+  .timeline-story {
+    width: 600px;
+  }
+}
+
+
+//impares
 .cards:nth-child(odd) {
-  padding-right: 70px;
-  align-self: end;
-
-
+  .timeline-story{
+    align-self: end;
+  }
   .information-left{
     flex-direction: row;
   }
@@ -64,10 +74,11 @@
 
 }
 
+//pares
 .cards:nth-child(even) {
-  padding-left: 70px;
-  align-self: start;
-
+  .timeline-story {
+    align-self: start;
+  }
   .information-right{
     flex-direction: row-reverse;
   }
@@ -129,7 +140,7 @@
 
 #company-logo {
   width: 71px;
-  height: 63px;
+  height: 71px;
   margin-left: 10px;
 }
 
@@ -160,19 +171,18 @@
 
 // Modal content informatiom cards
 .modal-timeline{
-  display: none;
   flex-direction: column;
   z-index: 10;
-  width: 1300px;
+  max-width: 1300px;
+  min-width: 750px;
   height: auto;
- // position: absolute;
+  //position: absolute;
   background-color: $light-color;
   filter: drop-shadow(1px 4px 18px rgba(0, 0, 0, 0.25));
   backdrop-filter: blur(21px);
   border-radius: 20px;
-  margin-bottom: 30px;
-  transform: translate(-50%, -50%);
 }
+
 
 .modal-top{
   display: flex;

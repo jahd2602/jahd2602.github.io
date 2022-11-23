@@ -1,19 +1,29 @@
-document.addEventListener("click", function (e) {
-  //verifica se o alvo do seu clique está sendo o modal ou um botão
-  if (
-    e.target != document.getElementsByClassName("modal-timeline")[0] &&
-    e.target != document.getElementsByClassName("btn-close-modal")[0]
-  ) {
-     closeModal();
-  }
-});
+// criando um evento click para verificar se o modal existe
+// document.addEventListener("click", function (e) {
+//   //verifica se o alvo do seu clique está sendo o modal ou um botão
+//   if (
+//     e.target != document.getElementsByClassName("modal-timeline") &&
+//     e.target != document.getElementsByClassName("btn-close-modal")
+//   ) {
+//      closeModal();
+//   }
+// });
 
-export function openModal() {
-  document.getElementsByClassName("modal-timeline")[0].style.display =
-    "block";
+console.log("modal");
+window.openModal = function(e, index) {
+  console.log(index);
+  console.log("open modal");
+  // por padrão o display é none, quando eu clico no card, o display do modal
+  // muda de none pra block
+  // document.getElementsByClassName("modal-timeline").style.display =
+  // "flex";
+  document.getElementById("modal-" + index).style.display = "block";
 }
 
-// função fechar modal lançamento
-export function  closeModal() {
-  document.getElementsByClassName("modal-timeline")[0].style.display = "none";
-}
+
+window.closeModal = function (e, index) {
+  console.log(e);
+  console.log("close modal");
+  // quando eu clico no card, o display do modal muda de block pra none
+  document.getElementById("modal-" + index).style.display = "none";
+};
