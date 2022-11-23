@@ -37,48 +37,53 @@ kramdown:
 gems:
   - jekyll-paginate
 
+about:
+  title: About me
+  description: Jairo Honorio founded multiple companies including game studios such as JahdSoft and Javary, and led various teams up to 6 engineers. Today, Jairo is a Senior Software Engineer that works with AI virtual assistants in Smart Displays and Wearables at Google.
 
+
+timeline: Timeline
 
 
 companies:
   - name: Google
-    logo: ./assets/images/logo-google.jpeg
+    logo: ./assets/images/logo-google.png
     start: Feb, 2022
     finish: Present
     field: Senior Technical Solutions Consultant, Partner Engineer
     description:
     local: Mountain View, CA 🇺🇸
-    type: job
+    type: Job
 
   - name: Oppia Fundation
-    logo: ./assets/images/logo-google.jpeg
+    logo: ./assets/images/oppia.jpeg
     start: Feb, 2022
     finish: Present
     field: Software Engineer
     description: Typescript, Angular, Jasmine, Mocka, Karma
     local: Mountain View, CA 🇺🇸
-    type: volunteer
+    type: Volunteer
 
   - name: Google
-    logo: ./assets/images/logo-google.jpeg
+    logo: ./assets/images/logo-google.png
     start: Oct, 2021
     finish: Feb, 2022
     field: Senior Technical Solutions Consultant, Partner Engineer (Assistant Smart Displays)
     description:
     local: São Paulo, SP 🇧🇷
-    type: job
+    type: Job
 
   - name: Google
-    logo: ./assets/images/logo-google.jpeg
+    logo: ./assets/images/logo-google.png
     start: Feb, 2020
     finish: Oct, 2021
     field: Technical Solutions Consultant, Partner Technology Manager (Assistant Smart Displays)
     description:
     local: São Paulo, SP 🇧🇷
-    type: job
+    type: Job
 
   - name: Google Summer of Code
-    logo: ./assets/images/logo-google.jpeg
+    logo: ./assets/images/google-summer-of-code-icon.svg.png
     start: Aug, 2019
     finish: No expiration date
     field: Mentor for Godot Engine & Mentor Summit Attendee in Münich
@@ -87,21 +92,21 @@ companies:
     type: volunteer
 
   - name: Javary Games
-    logo: ./assets/images/logo-google.jpeg
+    logo: ./assets/images/logo-javary-games.webp
     start: Mar, 2018
     finish: Jan, 2020
     field: CTO
-    description: "→ Recruit and lead a team of 6 software engineers, 1 music engineer and 1 software tester, plus working     with a team of designers and several contractors, to create casual and puzzle games for Android and iOS.
-      →  Objective-oriented workflow with high focus on app metrics: DAU, ARPU, D1-D7-D30 Retention, Conversion Rate, and more.
-      →  Create and maintain 10+ native plugins in Java and Objective-C, including Facebook SDK, Firebase, Azure's Playfab, and more.
-      →  Game engine development using Python, C++ and OpenGL, ensuring high crash-free users (99.98%) and high performance in low-end devices (60 fps).
-      →  Webserver on top of Amazon Web Services' Lambda server-less platform, attached to a cloud MongoDB instance through NodeJS + Typescript.
-      →  Use BigQuery language with Google's DataStudio Business Intelligence platform to produce highly relevant reports that directly impact and improve our products."
+    description: "→ Recruit and lead a team of 6 software engineers, 1 music engineer and 1 software tester, plus working with a team of designers and several contractors, to create casual and puzzle games for Android and iOS.
+    <br> →  Objective-oriented workflow with high focus on app metrics: DAU, ARPU, D1-D7-D30 Retention, Conversion Rate, and more.
+    <br> →  Create and maintain 10+ native plugins in Java and Objective-C, including Facebook SDK, Firebase, Azure's Playfab, and more.
+    <br> →  Game engine development using Python, C++ and OpenGL, ensuring high crash-free users (99.98%) and high performance in low-end devices (60 fps).
+    <br> →  Webserver on top of Amazon Web Services' Lambda server-less platform, attached to a cloud MongoDB instance through NodeJS + Typescript.
+    <br> →  Use BigQuery language with Google's DataStudio Business Intelligence platform to produce highly relevant reports that directly impact and improve our products."
     local: São Paulo, SP 🇧🇷
     type: job
 
   - name: Godot Engine
-    logo: ./assets/images/logo-google.jpeg
+    logo: ./assets/images/logo-godot.png
     start: Jun, 2018
     finish: Feb, 2021
     field: Software Engineer
@@ -110,7 +115,7 @@ companies:
     type: volunteer
 
   - name: Lead Consulting
-    logo: ./assets/images/logo-google.jpeg
+    logo: ./assets/images/logo-google.png
     start: Dec, 2017
     finish: Jan, 2018
     field: Mobile Application Developer - Contract
@@ -120,7 +125,7 @@ companies:
     type: job
 
   - name: Ocean Partners UK Limited
-    logo: ./assets/images/logo-google.jpeg
+    logo: ./assets/images/logo-google.png
     start: Jun, 2017
     finish: Sep, 2017
     field: Full-Stack JavaScript Trainer and Consultant
@@ -130,7 +135,7 @@ companies:
     type: job
 
   - name: CINFO UNMSM
-    logo: ./assets/images/logo-google.jpeg
+    logo: ./assets/images/logo-cinfo.png
     start: Jan, 2017
     finish: Mar, 2017
     field: Professor
@@ -139,7 +144,7 @@ companies:
     type: job
 
   - name: Instrategy
-    logo: ./assets/images/logo-google.jpeg
+    logo: ./assets/images/logo-google.png
     start: Aug, 2016
     finish: Sep, 2016
     field: ETL Consultor (Business Intelligence)
@@ -148,7 +153,7 @@ companies:
     type: job
 
   - name: Universidad Privada Antenor Orrego
-    logo: ./assets/images/logo-google.jpeg
+    logo: ./assets/images/upao-antenor-orrego-logo2.jpeg
     start: Oct, 2016
     finish: No expiration date
     field: Generador de código de servicios web basado en REST del lado del servidor a partir de archivos de configuración RAML
@@ -157,7 +162,7 @@ companies:
     type: education
 
   - name: Escalabs
-    logo: ./assets/images/logo-google.jpeg
+    logo: ./assets/images/logo-google.png
     start: Oct, 2015
     finish: May, 2016
     field: Project Manager & Tech Lead
@@ -166,7 +171,7 @@ companies:
     type: job
 
   - name: Jorvex
-    logo: ./assets/images/logo-google.jpeg
+    logo: ./assets/images/logo-google.png
     start: Jun, 2015
     finish: Aug, 2015
     field: Full stack Software Developer
@@ -175,7 +180,7 @@ companies:
     type: job
 
   - name: Treto Enterprises
-    logo: ./assets/images/logo-google.jpeg
+    logo: ./assets/images/logo-google.png
     start: Nov, 2014
     finish: Nov, 2018
     field: Main Software Engineer at Treto Enterprises
@@ -188,7 +193,7 @@ companies:
     type: job
 
   - name: MelodiaCristiana.com
-    logo: ./assets/images/logo-google.jpeg
+    logo: ./assets/images/logo-google.png
     start: May, 2014
     finish: Jun, 2014
     field: Mobile Web Software Developer
@@ -197,7 +202,7 @@ companies:
     type: job
 
   - name: Vanderbilt University
-    logo: ./assets/images/logo-google.jpeg
+    logo: ./assets/images/logo-google.png
     start: Sep, 2014
     finish: No expiration date
     field: Programming Cloud Services for Android Handheld Systems
@@ -206,7 +211,7 @@ companies:
     type: education
 
   - name: CURSOR S.A.
-    logo: ./assets/images/logo-google.jpeg
+    logo: ./assets/images/logo-google.png
     start: Dec, 2013
     finish: No expiration date
     field: Finalist in Apps Tournament - Sponsored by Google - Santiago de Chile
@@ -215,7 +220,7 @@ companies:
     type: education
 
   - name: Universidad Privada Antenor Orrego
-    logo: ./assets/images/logo-google.jpeg
+    logo: ./assets/images/upao-antenor-orrego-logo2.jpeg
     start: Nov, 2013
     finish: No expiration date
     field: 1st Place - Programming Contest - Intermediate Level - CIISSIT
@@ -224,7 +229,7 @@ companies:
     type: education
 
   - name: Universidad Nacional de Trujillo
-    logo: ./assets/images/logo-google.jpeg
+    logo: ./assets/images/logo-google.png
     start: Feb, 2013
     finish: No expiration date
     field: 1st Place - Programming Contest - A Category - SECICOMP
@@ -233,7 +238,7 @@ companies:
     type: education
 
   - name: JAHD Soft
-    logo: ./assets/images/logo-google.jpeg
+    logo: ./assets/images/jahd-logo.png
     start: Aug, 2012
     finish: Feb, 2018
     field: Founder, Software Developer and Project Manager at JAHD Soft
@@ -242,7 +247,7 @@ companies:
     type: job
 
   - name: Universidad Privada Antenor Orrego
-    logo: ./assets/images/logo-google.jpeg
+    logo: ./assets/images/upao-antenor-orrego-logo2.jpeg
     start: Nov, 2012
     finish: No expiration date
     field: 1st Place - Techonologic Fair - CIISS
@@ -250,9 +255,6 @@ companies:
     local: Trujillo, Peru 🇵🇪
     type: education
 
-about:
-  title: About <br> me
-  description: Jairo Honorio founded multiple companies including game studios such as JahdSoft and Javary, and led various teams up to 6 engineers. Today, Jairo is a Senior Software Engineer that works with AI virtual assistants in Smart Displays and Wearables at Google.
 
 contact:
   title: Let's Talk!
