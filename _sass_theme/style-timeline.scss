@@ -1,0 +1,235 @@
+.background-timeline-title{
+  background-color: $dark-color;
+  margin: 0;
+  display: flex;
+  align-items: end;
+  right: 0;
+  z-index: 6;
+  height: 200px;
+}
+
+.timeline-title {
+  color: $light-color;
+  font-weight: 700;
+  font-size: 4.5rem;
+  text-align: center;
+  z-index: 10;
+  position: relative;
+  line-height: 0.6em;
+  pointer-events: none;
+  margin-top: -172px;
+}
+
+.timeline{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin: auto 70px;
+}
+
+.line-dotted-spaced-vertical{
+  background-image: linear-gradient(to bottom, #333 70%, rgba(255, 255, 255, 0) 70%);
+  background-size: 1px 35px;
+  background-repeat: repeat-y;
+  height: 1000px;
+  width: 1px;
+  position: absolute;
+  margin-top: -4125px;
+}
+
+.line-dotted-spaced-horizontal{
+  background-image: linear-gradient(to bottom, #333 70%, rgba(255, 255, 255, 0) 70%);
+  background-size: 1px 35px;
+  //background-repeat: repeat-x;
+  height: 1px;
+  width: 130px;
+  position: absolute;
+  margin-top: 130px;
+
+}
+
+.cards:nth-child(odd) {
+  padding-right: 70px;
+  align-self: end;
+
+
+  .information-left{
+    flex-direction: row;
+  }
+
+  .line-dotted-left{
+    margin-left: -120px;
+  }
+
+}
+
+.cards:nth-child(even) {
+  padding-left: 70px;
+  align-self: start;
+
+  .information-right{
+    flex-direction: row-reverse;
+  }
+
+  .line-dotted-right{
+    margin-right: -120px;
+  }
+}
+
+  //span:before
+  .status-story {
+    display: flex;
+    justify-content: center;
+    margin: -9px 10px 0;
+    transition: all 200ms ease-in;
+    position: relative;
+  }
+
+.information-start-type {
+  display: flex;
+  flex-direction: row;
+  margin: auto 40px;
+}
+
+#company-type {
+  margin: auto 30px;
+  color: $gray-color;
+  font-weight: 400;
+}
+
+.card-informations {
+  z-index: 10;
+  width: 600px;
+  // height: 200px;
+  height: auto;
+  background-color: $light-color;
+  filter: drop-shadow(1px 4px 18px rgba(0, 0, 0, 0.25));
+  backdrop-filter: blur(21px);
+  border-radius: 20px;
+  margin-bottom: 30px;
+  display: flex;
+  cursor: pointer;
+  // justify-content: space-evenly;
+}
+
+.information-field {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 100%;
+  margin: 18px 10px 0;
+}
+
+#logo-card-company{
+  display: flex;
+  align-items: center;
+  margin: auto 10px;
+}
+
+#company-logo {
+  width: 71px;
+  height: 63px;
+  margin-left: 10px;
+}
+
+#company-name {
+  font-weight: 900;
+  font-size: 1.4rem;
+  color: $dark-color;
+  margin: 0 0 5px 0;
+  text-align: -webkit-center;
+}
+
+#company-field {
+  font-weight: 300;
+  font-size: 1.2rem;
+  color: $dark-color;
+  margin: 10px auto;
+  text-align: -webkit-center;
+}
+
+.company-local {
+  font-weight: 400;
+  font-size: 1rem;
+  color: $gray-color;
+  margin: 10px;
+  text-align: end;
+}
+
+
+// Modal content informatiom cards
+.modal-timeline{
+  display: none;
+  flex-direction: column;
+  z-index: 10;
+  width: 1300px;
+  height: auto;
+ // position: absolute;
+  background-color: $light-color;
+  filter: drop-shadow(1px 4px 18px rgba(0, 0, 0, 0.25));
+  backdrop-filter: blur(21px);
+  border-radius: 20px;
+  margin-bottom: 30px;
+  transform: translate(-50%, -50%);
+}
+
+.modal-top{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px 20px 40px 50px;
+}
+
+.modal-header{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: auto 50px;
+}
+
+.modal-header-content {
+  margin: auto 10px;
+}
+
+#modal-company-logo{
+  width: 140px;
+  height: 140px;
+  margin-right: 30px;
+}
+
+.modal-header-name-company{
+  font-weight: 500;
+  font-size: 2rem;
+  margin: 10px 0;
+}
+
+.modal-header-field-company {
+  font-weight: 300;
+  font-size: 1.6rem;
+  margin: 0;
+}
+
+.timeline-local{
+  font-weight: 400;
+  font-size: 1.5rem;
+  color: $gray-color;
+  margin: 10px;
+  text-align: end;
+}
+
+.modal-content-description{
+  margin: 30px 60px;
+  font-weight: 350;
+  font-size: 1.2rem;
+  line-height: 41px;
+}
+
+.modal-local-company{
+  margin: 50px;
+}
+
+.btn-close-modal:hover{
+ background-color: $red-color;
+}
