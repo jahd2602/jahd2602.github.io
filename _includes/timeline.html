@@ -62,12 +62,10 @@
     {% endfor %}
   </div>
 
-  <div class="see-more-background scrollable-in scrollable-out collapse in">
+  <div class="see-more-background scrollable-in scrollable-out collapsible">
     <div class="button-expand">
-      <button
-        class="btn-see-more btn-see-less btn-default"
-        data-toggle="collapse"
-      >
+      <button onclick="scroll(0, 1000)"
+        class="btn-see-more btn-see-less btn-default" toggle="">
         v
       </button>
       <h4 class="see-more">See more</h4>

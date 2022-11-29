@@ -1,2 +1,2 @@
-// import scrollToPosition from "./scroll-page"
+import "./scroll-page.js"
 import "./script-modal.js";
