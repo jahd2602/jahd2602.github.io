@@ -10,19 +10,24 @@
 
 .timeline-title {
   color: $light-color;
-  font-weight: 700;
   font-size: 4.5rem;
   text-align: center;
   z-index: 10;
   position: relative;
-  line-height: 0.6em;
-  pointer-events: none;
+  line-height: 3.3em;
+  //pointer-events: none;
   margin-top: -172px;
+}
+.timeline-title h1{
+  margin: 0;
+  height: 173px;
 }
 
 .timeline{
   display: flex;
-  justify-content: center;
+  max-height: 700px;
+  overflow: hidden;
+  // justify-content: center;
   flex-direction: column;
   align-items: center;
   margin: auto 70px;
@@ -34,7 +39,7 @@
   background-repeat: repeat-y;
   height: 1000px;
   width: 1px;
-  position: absolute;
+  //position: absolute;
   margin-top: -4125px;
 }
 
@@ -44,7 +49,7 @@
   //background-repeat: repeat-x;
   height: 1px;
   width: 130px;
-  position: absolute;
+  //position: absolute;
   margin-top: 130px;
 
 }
@@ -243,3 +248,11 @@
 .btn-close-modal:hover{
  background-color: $red-color;
 }
+
+// COLLAPSIBLE
+.collapsible {
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+}
+ 
