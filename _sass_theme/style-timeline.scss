@@ -81,8 +81,11 @@
     margin-top: 128px;
   }
   .ball-left {
-    top: 86px;
-    right: 30px;
+    //top: 86px;
+    //right: 30px;
+    top: -9px;
+    z-index: 4;
+    position: relative;
   }
 
 }
@@ -105,8 +108,12 @@
   }
 
   .ball-right{
-    top: 86px;
-      right: 30px;
+    // top: 86px;
+    // right: 30px;
+    left: 63px;
+    top: -9px;
+    z-index: 4;
+    position: relative;
   }
 }
 
