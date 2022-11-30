@@ -1,16 +1,24 @@
 .see-more-background {
   background-color: $light-color;
-  position: absolute;
   z-index: 6;
   width: 100%;
   //height: 100vh;
   display: flex;
   flex-direction: column;
   filter: drop-shadow(0px -11px 7px rgba(0, 0, 0, 0.15));
-  top: 1990px;
+  //top: 1990px;
+  //top: 6620px;
+  transition-property: all;
+  transition-duration: 0.5s;
+  transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
+
+  &.scrollable-out {
+    top: 2050px;
+  }
 }
 
-.button-expand{
+
+.button-expand {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -18,7 +26,7 @@
   margin-bottom: 50px;
 }
 
-.btn-default{
+.btn-default {
   background-color: $dark-color;
   color: $light-color;
   border-radius: 50%;
@@ -29,14 +37,14 @@
   cursor: pointer;
 }
 
-.btn-see-more:hover{
+.btn-see-more:hover {
   background-color: $gray-color;
   color: $dark-color;
 }
 
-.container-lets-talk{
+.container-lets-talk {
   display: flex;
-  flex-direction:start;
+  flex-direction: start;
   height: 4.5rem;
 }
 
@@ -52,7 +60,7 @@
   margin: 25px 0 0 45px;
 }
 
-.information-container{
+.information-container {
   margin: auto 50px !important;
   background-color: $dark-color;
   display: flex;
@@ -60,7 +68,7 @@
   height: 740px;
 }
 
-.data-contact{
+.data-contact {
   color: $light-color;
   display: flex;
   flex-direction: column;
@@ -72,52 +80,51 @@
   text-align: justify;
 }
 
-.image-contact{
+.image-contact {
   width: 650px;
   object-fit: cover;
   height: 740px;
   //background-image: url(./assets/images/contact-image.jpg);
 }
 
-.data-social-media{
+.data-social-media {
   display: flex;
   flex-direction: column;
 }
 
-.content-linkedin{
+.content-linkedin {
   display: flex;
   flex-direction: row;
   justify-content: start;
   align-items: center;
 }
 
-.content-email{
+.content-email {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-
 }
 
-.font-contact-description{
+.font-contact-description {
   font-weight: 400;
   font-size: 32px;
   line-height: 38px;
   padding: 20px 40px;
 }
 
-.font-social-media{
+.font-social-media {
   font-weight: 400;
   font-size: 1.8rem;
   line-height: 38px;
   padding: 0 40px;
 }
 
-.social-icons{
+.social-icons {
   font-size: 2.8rem;
 }
 
-a{
+a {
   text-decoration: none;
   color: $light-color;
   padding: 40px 10px;
@@ -131,18 +138,6 @@ a:active {
   text-decoration: underline;
 }
 
-// Interations
-.scrollable-in{
-  top: 6620px;
-  transition-property: all;
-  transition-duration: .5s;
-  transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
-}
-
-.scrollable-out{
-  top: 2050px;
-}
-
-.see-less{
+.see-less {
   display: none;
 }

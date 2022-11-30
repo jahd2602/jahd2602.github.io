@@ -14,13 +14,17 @@
 // }
 
 var coll = document.getElementsByClassName("collapsible");
-var i;
+
 console.log("antes de apertar see more");
 
 const scrollToContent = window.scrollTo(0, 1000);
-for (i = 0; i < coll.length; i++) {
+for (var i = 0; i < coll.length; i++) {
+  console.log("🚀 ~ file: scroll-page.js ~ line 31 ~ coll", coll)
+
   coll[i].addEventListener("click", function () {
-    this.classList.toggle("active");
+    this.classList.toggle("scrollable-out");
+    document.getElementsByClassName("timeline")[0].classList.toggle("scrollable-out");
+    console.log("🚀 ~ file: scroll-page.js ~ line 26 ~ classList", this.classList)
     var content = this.nextElementSibling;
     if (content.style.display === "block") {
       content.style.display = "none";

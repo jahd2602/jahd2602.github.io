@@ -28,8 +28,12 @@
   max-height: 700px;
   overflow: hidden;
   flex-direction: column;
-  padding: 2px 51px;
+  padding: 2px 51px 95px;
   position: relative;
+
+  &.scrollable-out {
+    max-height: fit-content;
+  }
 }
 
 .timeline-line-container{
@@ -153,7 +157,7 @@
   filter: drop-shadow(1px 4px 18px rgba(0, 0, 0, 0.25));
   backdrop-filter: blur(21px);
   border-radius: 20px;
-  margin: 0 0px -65px 0;
+  margin: 20px 0px -65px 0;
   display: flex;
   cursor: pointer;
   // justify-content: space-evenly;
