@@ -4,9 +4,9 @@
     <h1>{{ site.timeline }}</h1>
   </div>
   <div class="timeline">
-    <div>
-    <div class="line-dotted-spaced-vertical"></div>
-  </div>
+    <div class="timeline-line-container">
+      <div class="line-dotted-spaced-vertical"></div>
+    </div>
     {% for company in site.companies %}
     <div class="cards">
       <div class="timeline-story">
@@ -15,7 +15,7 @@
             class="line-dotted-spaced-horizontal line-dotted-right line-dotted-left"
           >
             <span class="status-story ball-right ball-left"
-              >⚫️</span
+              >●</span
             >
           </div>
           <h3 id="company-start">{{company.start}}</h3>
