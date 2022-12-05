@@ -10,7 +10,7 @@
 // });
 
 console.log("modal");
-window.openModal = function(e, index) {
+window.openModal = function(t,e, index) {
   console.log(index);
   console.log("open modal");
   // por padrão o display é none, quando eu clico no card, o display do modal
@@ -18,6 +18,13 @@ window.openModal = function(e, index) {
   // document.getElementsByClassName("modal-timeline").style.display =
   // "flex";
   document.getElementById("modal-" + index).style.display = "block";
+  console.log(e);
+  console.log(t);
+  console.log(t.parentNode.parentNode)
+t.parentNode.parentNode.classList.add("cards-expanded");
+  // document.getElementById("card-hidden-" + index).style.display = "none";
+
+
 }
 
 
@@ -26,4 +33,6 @@ window.closeModal = function (e, index) {
   console.log("close modal");
   // quando eu clico no card, o display do modal muda de block pra none
   document.getElementById("modal-" + index).style.display = "none";
+
+    document.getElementById("card-hidden-" + index).style.display = "block";
 };

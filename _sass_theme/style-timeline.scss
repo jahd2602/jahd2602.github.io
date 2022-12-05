@@ -70,6 +70,13 @@
   .timeline-story {
     width: 600px;
   }
+
+  &.cards-expanded{
+
+    .timeline-story{
+      display: none;
+    }
+  }
 }
 
 
@@ -161,6 +168,10 @@
   display: flex;
   cursor: pointer;
   // justify-content: space-evenly;
+
+  &.card-hidden-in{
+    //display: none;
+  }
 }
 
 .information-field {

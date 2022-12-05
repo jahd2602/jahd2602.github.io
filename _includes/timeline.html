@@ -22,7 +22,7 @@
           <h3 id="company-type">{{company.type}}</h3>
         </div>
 
-        <div class="card-informations" onclick="openModal(event, {{forloop.index}})" >
+        <div class="card-informations "  onclick="openModal(this,event, {{forloop.index}})" >
           <div id="logo-card-company">
             <img id="company-logo" src="{{company.logo}}" alt="" />
           </div>
