@@ -61,7 +61,7 @@
 }
 
 .information-container {
-  margin: auto 50px !important;
+  margin: auto 50px;
   background-color: $dark-color;
   display: flex;
   flex-direction: row;
@@ -140,4 +140,41 @@ a:active {
 
 .see-less {
   display: none;
+}
+
+@media only screen and (max-width: 972px) {
+  .information-container{
+    flex-direction: column-reverse;
+    height: 100%;
+    margin: 0;
+  }
+
+  .image-contact{
+    width: 100%;
+    height: 55vh;
+  }
+
+  .see-more-background{
+    width: auto;
+    padding: 0;
+  }
+
+  .see-more-background .scrollable-out{
+    padding: 0;
+  }
+
+  .data-contact{
+    width: 100%;
+    height: auto;
+  }
+
+  .font-contact-description{
+    font-size: 1.6rem;
+    padding: 0 30px;
+  }
+
+  .font-social-media{
+    padding: 0 24px;
+    font-size: 1.6rem;
+  }
 }
