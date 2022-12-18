@@ -209,7 +209,7 @@ body {
 .site-footer {
   margin: 0 auto;
   padding: $rs * 3 0;
-  width: 100%;
+  // width: 100%;
   max-width: 700px;
   font-size: $rs / 4 * 3;
   text-align: center;
@@ -524,4 +524,10 @@ pre {
 
 .pagination .disabled {
     opacity: 0;
+}
+
+@media only screen and (max-width: 972px) {
+  .site-footer{
+    padding: 30px 10px;
+  }
 }
