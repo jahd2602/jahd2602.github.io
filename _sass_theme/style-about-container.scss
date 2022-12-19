@@ -36,11 +36,12 @@
   width: 80vw;
   height: 14vh;
 }
-@media only screen and (max-width: 972px){
+@media only screen and (max-width: $mobile-breakpoint){
 
   .about-container{
     display: flex;
     flex-direction: column;
+    height: auto;
 
   }
   .title-container {
@@ -51,8 +52,9 @@
   .about-title {
     font-family: 'Helvetica Neue';
     font-style: normal;
-    text-align: center;
+    text-align: start;
     width: 100vw;
+    height: 78px;
     margin-top: 30px;
     margin-bottom: 0;
   }

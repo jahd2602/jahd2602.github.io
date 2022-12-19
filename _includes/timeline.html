@@ -1,7 +1,9 @@
 <body>
-  <div class="background-timeline-title"></div>
-  <div class="timeline-title">
-    <h1>{{ site.timeline }}</h1>
+  <div class="background-timeline-title">
+    <div class="timeline-title">
+      <h1>{{ site.timeline }}</h1>
+    </div>
+
   </div>
   <div class="timeline">
     <div class="timeline-line-container">
@@ -23,12 +25,12 @@
         </div>
 
         <div class="card-informations "  onclick="openModal(this,event, {{forloop.index}})" >
-          <div id="logo-card-company">
-            <img id="company-logo" src="{{company.logo}}" alt="" />
+          <div class="logo-card-company">
+            <img class="company-logo" src="{{company.logo}}" alt="" />
           </div>
           <div class="information-field">
-            <h3 id="company-name">{{company.name}} {{forloop.index}}</h3>
-            <h4 id="company-field">{{company.field}}</h4>
+            <h3 class="company-name">{{company.name}} {{forloop.index}}</h3>
+            <h4 class="company-field">{{company.field}}</h4>
             <h5 class="company-local">{{company.local}}</h5>
           </div>
         </div>
@@ -47,7 +49,7 @@
         </div>
         <div class="modal-content">
           <div class="modal-header">
-            <img id="modal-company-logo" src="{{company.logo}}" alt="" />
+            <img class="modal-company-logo" src="{{company.logo}}" alt="" />
             <div class="modal-header-content">
               <h4 class="modal-header-name-company">{{company.name}}</h4>
               <h4 class="modal-header-field-company">{{company.field}}</h4>

@@ -526,7 +526,7 @@ pre {
     opacity: 0;
 }
 
-@media only screen and (max-width: 972px) {
+@media only screen and (max-width: $mobile-breakpoint) {
   .site-footer{
     padding: 30px 10px;
   }

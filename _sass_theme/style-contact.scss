@@ -17,7 +17,6 @@
   }
 }
 
-
 .button-expand {
   display: flex;
   flex-direction: row;
@@ -44,7 +43,7 @@
 
 .container-lets-talk {
   display: flex;
-  flex-direction: start;
+  // flex-direction: start;
   height: 4.5rem;
 }
 
@@ -81,9 +80,9 @@
 }
 
 .image-contact {
-  width: 650px;
+  width: 50vw;
   object-fit: cover;
-  height: 740px;
+  height: 100%;
   //background-image: url(./assets/images/contact-image.jpg);
 }
 
@@ -142,38 +141,44 @@ a:active {
   display: none;
 }
 
-@media only screen and (max-width: 972px) {
-  .information-container{
+@media only screen and (max-width: $mobile-breakpoint) {
+  .information-container {
     flex-direction: column-reverse;
     height: 100%;
     margin: 0;
   }
 
-  .image-contact{
+  .image-contact {
     width: 100%;
-    height: 55vh;
+    height: 40vh;
+    object-position: 10% 32%;
   }
 
-  .see-more-background{
+  .container-lets-talk {
+    justify-content: flex-start;
+    margin-left: -50px;
+  }
+
+  .see-more-background {
     width: auto;
     padding: 0;
   }
 
-  .see-more-background .scrollable-out{
+  .see-more-background .scrollable-out {
     padding: 0;
   }
 
-  .data-contact{
+  .data-contact {
     width: 100%;
     height: auto;
   }
 
-  .font-contact-description{
+  .font-contact-description {
     font-size: 1.6rem;
     padding: 0 30px;
   }
 
-  .font-social-media{
+  .font-social-media {
     padding: 0 24px;
     font-size: 1.6rem;
   }
