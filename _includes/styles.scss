@@ -265,8 +265,8 @@ body {
   .post-content {
     width: 100%;
     font-family: $font-serif;
-    color: $dark-color;
     h1, h2, h3 {
+      color: $dark-color;
       font-family: $font-sans;
     }
     h3, h4, h5, h6 {
