@@ -69,7 +69,7 @@ companies:
     type: volunteer
 
   - name: Lead Consulting
-    logo: ./assets/images/logo-google.jpeg
+    logo: ./assets/images/default-job.png
     start: Dec, 2017
     finish: Jan, 2018
     field: Mobile Application Developer - Contract
@@ -79,7 +79,7 @@ companies:
     type: job
 
   - name: Ocean Partners UK Limited
-    logo: ./assets/images/logo-google.jpeg
+    logo: ./assets/images/default-job.png
     start: Jun, 2017
     finish: Sep, 2017
     field: Full-Stack JavaScript Trainer and Consultant
@@ -98,7 +98,7 @@ companies:
     type: job
 
   - name: Instrategy
-    logo: ./assets/images/logo-google.jpeg
+    logo: ./assets/images/default-job.png
     start: Aug, 2016
     finish: Sep, 2016
     field: ETL Consultor (Business Intelligence)
@@ -116,7 +116,7 @@ companies:
     type: education
 
   - name: Escalabs
-    logo: ./assets/images/logo-google.jpeg
+    logo: ./assets/images/default-job.png
     start: Oct, 2015
     finish: May, 2016
     field: Project Manager & Tech Lead
@@ -125,7 +125,7 @@ companies:
     type: job
 
   - name: Jorvex
-    logo: ./assets/images/logo-google.jpeg
+    logo: ./assets/images/default-job.png
     start: Jun, 2015
     finish: Aug, 2015
     field: Full stack Software Developer
@@ -134,7 +134,7 @@ companies:
     type: job
 
   - name: Treto Enterprises
-    logo: ./assets/images/logo-google.jpeg
+    logo: ./assets/images/default-job.png
     start: Nov, 2014
     finish: Nov, 2018
     field: Main Software Engineer at Treto Enterprises
@@ -147,7 +147,7 @@ companies:
     type: job
 
   - name: MelodiaCristiana.com
-    logo: ./assets/images/logo-google.jpeg
+    logo: ./assets/images/default-job.png
     start: May, 2014
     finish: Jun, 2014
     field: Mobile Web Software Developer
@@ -156,7 +156,7 @@ companies:
     type: job
 
   - name: Vanderbilt University
-    logo: ./assets/images/logo-google.jpeg
+    logo: ./assets/images/default-job.png
     start: Sep, 2014
     finish: No expiration date
     field: Programming Cloud Services for Android Handheld Systems
@@ -165,7 +165,7 @@ companies:
     type: education
 
   - name: CURSOR S.A.
-    logo: ./assets/images/logo-google.jpeg
+    logo: ./assets/images/default-job.png
     start: Dec, 2013
     finish: No expiration date
     field: Finalist in Apps Tournament - Sponsored by Google - Santiago de Chile
@@ -183,7 +183,7 @@ companies:
     type: education
 
   - name: Universidad Nacional de Trujillo
-    logo: ./assets/images/logo-google.jpeg
+    logo: ./assets/images/default-job.png
     start: Feb, 2013
     finish: No expiration date
     field: 1st Place - Programming Contest - A Category - SECICOMP

@@ -23,6 +23,19 @@
   justify-content: center;
   align-items: center;
   margin-bottom: 50px;
+
+    .btn-see-more {
+      // bold
+      font-weight: 900
+    }
+
+  &:hover {
+
+    .btn-see-more {
+      background-color: $gray-color;
+      color: $dark-color;
+    }
+  }
 }
 
 .btn-default {
@@ -36,9 +49,15 @@
   cursor: pointer;
 }
 
-.btn-see-more:hover {
-  background-color: $gray-color;
-  color: $dark-color;
+// COLLAPSIBLE
+.collapsible {
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+}
+
+.btn-close-modal:hover {
+  background-color: $red-color;
 }
 
 .container-lets-talk {

@@ -191,6 +191,7 @@
   width: 71px;
   height: 71px;
   margin-left: 10px;
+  object-fit: contain;
 }
 
 .company-name {
@@ -288,16 +289,7 @@
   padding: 0 10px 10px 0;
 }
 
-.btn-close-modal:hover {
-  background-color: $red-color;
-}
 
-// COLLAPSIBLE
-.collapsible {
-  cursor: pointer;
-  padding: 18px;
-  width: 100%;
-}
 
 //  RESPONSIVIDADE
 @media only screen and (max-width: $mobile-breakpoint) {
@@ -454,7 +446,16 @@
   }
   .modal-content-description {
     margin: 10px 20px;
-    // text-align: -webkit-center;
     font-size: 1rem;
+    line-height: 20px;
+
+    br {
+      display: block;
+    margin: 28px 0;
+    line-height: 30px;
+    content: " ";
+    }
   }
+
+
 }
