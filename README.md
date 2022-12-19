@@ -1,3 +1,7 @@
+version 2.0
+date: 12/18/2022
+by: [Karen Honorio](https://www.linkedin.com/in/karen-caroline-honorio-banci-198827112)
+
 # Amplify for Jekyll
 
 *A Jekyll html theme in the vague style of Medium.com built using Google AMP*
