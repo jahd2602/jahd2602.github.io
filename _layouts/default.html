@@ -2,12 +2,14 @@
 <html ⚡ lang="en">
   {% include head.html %}
   <body>
-    {% include header.html %}
+    <div  onclick="toggleOff()">
+      {% include header.html %}
 
-    {{ content }}
+      {{ content }}
 
-    {% comment %}
-        {% include analytics.html %}
-    {% endcomment %}
+      {% comment %}
+      {% include analytics.html %}
+      {% endcomment %}
+    </div>
   </body>
 </html>
