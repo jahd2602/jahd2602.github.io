@@ -26,7 +26,14 @@
           onclick="openModal(this, event, {{forloop.index}})"
         >
           <div class="logo-card-company">
-            <img class="company-logo" src="{{company.logo}}" alt="" />
+            <amp-img
+              class="company-logo"
+              src="{{company.logo}}"
+              alt=""
+              width="50"
+              height="50"
+              layout="responsive"
+            ></amp-img>
           </div>
           <div class="information-field">
             <h3 class="company-name">{{company.name}}</h3>
@@ -122,11 +129,14 @@
       </div>
     </div>
     <div>
-      <img
+      <amp-img
         class="image-contact"
         src="./assets/images/contact-image.jpg"
         alt="Jairo in San Francisco front of Golden Gate"
-      />
+        width="2252"
+        height="4000"
+        layout="responsive"
+      ></amp-img>
     </div>
   </div>
 </div>
