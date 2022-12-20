@@ -99,10 +99,13 @@
 }
 
 .image-contact {
+  img{
+    object-fit: cover;
+    object-position: 10% 32%;
+  }
   width: 50vw;
   object-fit: cover;
   height: 100%;
-  //background-image: url(./assets/images/contact-image.jpg);
 }
 
 .data-social-media {

@@ -192,6 +192,7 @@
   height: 71px;
   margin-left: 10px;
   object-fit: contain;
+  background-color: white;
 }
 
 .company-name {
@@ -289,8 +290,6 @@
   padding: 0 10px 10px 0;
 }
 
-
-
 //  RESPONSIVIDADE
 @media only screen and (max-width: $mobile-breakpoint) {
   .background-timeline-title {
@@ -374,7 +373,7 @@
     }
 
     .timeline-story {
-      margin-left: -11px
+      margin-left: -11px;
     }
   }
 
@@ -451,11 +450,9 @@
 
     br {
       display: block;
-    margin: 28px 0;
-    line-height: 30px;
-    content: " ";
+      margin: 28px 0;
+      line-height: 30px;
+      content: " ";
     }
   }
-
-
 }
