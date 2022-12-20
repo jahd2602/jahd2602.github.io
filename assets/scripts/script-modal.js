@@ -1,4 +1,3 @@
-console.log("modal");
 window.openModal = function (this_element, event, index) {
   console.log(index);
   console.log("open modal");
