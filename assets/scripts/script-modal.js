@@ -1,14 +1,3 @@
-// criando um evento click para verificar se o modal existe
-// document.addEventListener("click", function (e) {
-//   //verifica se o alvo do seu clique está sendo o modal ou um botão
-//   if (
-//     e.target != document.getElementsByClassName("modal-timeline") &&
-//     e.target != document.getElementsByClassName("btn-close-modal")
-//   ) {
-//      closeModal();
-//   }
-// });
-
 console.log("modal");
 window.openModal = function (this_element, event, index) {
   console.log(index);
