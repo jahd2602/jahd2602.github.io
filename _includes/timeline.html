@@ -23,8 +23,11 @@
 
         <div
           class="card-informations"
-          onclick="openModal(this, event, {{forloop.index}})"
-        >
+          id="card-informations-{{forloop.index}}"
+          type="application/javascript"
+          target="amp-script"
+
+          >
           <div class="logo-card-company">
             <amp-img
               class="company-logo"
@@ -52,8 +55,7 @@
             {{company.start}} - {{company.finish}}
           </div>
           <button
-            class="btn-default btn-close-modal"
-            onclick="closeModal(this, event, {{forloop.index}})"
+          class="btn-default btn-close-modal"
           >
             X
           </button>
