@@ -231,7 +231,9 @@
   filter: drop-shadow(1px 4px 18px rgba(0, 0, 0, 0.25));
   backdrop-filter: blur(21px);
   border-radius: 20px;
-  margin: auto;
+  // margin: auto;
+  margin-top: 50px;
+
 }
 
 .modal-top {
@@ -408,7 +410,7 @@
     max-width: 90%;
     min-width: 50%;
     height: auto;
-    margin: 0;
+    // margin: 0;
     // align-self: center;
   }
 
