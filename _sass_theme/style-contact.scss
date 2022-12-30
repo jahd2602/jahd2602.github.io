@@ -24,13 +24,12 @@
   align-items: center;
   margin-bottom: 50px;
 
-    .btn-see-more {
-      // bold
-      font-weight: 900
-    }
+  .btn-see-more {
+    // bold
+    font-weight: 900;
+  }
 
   &:hover {
-
     .btn-see-more {
       background-color: $gray-color;
       color: $dark-color;
@@ -56,8 +55,13 @@
   width: 100%;
 }
 
-.btn-close-modal:hover {
-  background-color: $red-color;
+.btn-close-modal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  &:hover {
+    background-color: $red-color;
+  }
 }
 
 .container-lets-talk {
@@ -99,7 +103,7 @@
 }
 
 .image-contact {
-  img{
+  img {
     object-fit: cover;
     object-position: 10% 32%;
   }

@@ -458,3 +458,9 @@
     }
   }
 }
+
+@media only screen and (max-width: 800px) {
+  .timeline-line-container {
+    width: 92.5%;
+  }
+}
