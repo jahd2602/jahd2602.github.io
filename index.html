@@ -2,15 +2,15 @@
 layout: default
 ---
 
-<main role="main">
-  <div class="about-container" id="about">
-    <div class="title-container">
-      <h1 class="about-title">{{ site.about.title }}</h1>
-
+  <main role="main">
+    <div class="about-container" id="about">
+      <div class="title-container">
+        <h1 class="about-title">{{ site.about.title }}</h1>
+      </div>
+      <h3 class="about-description">{{ site.about.description }}</h3>
     </div>
-    <h3 class="about-description">{{ site.about.description }}</h3>
-  </div>
 
-{% include timeline.html %}
-</main>
+    {% include timeline.html %}
+  </main>
 {% include footer.html %}
+

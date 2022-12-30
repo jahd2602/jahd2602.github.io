@@ -2,16 +2,106 @@
 <html ⚡ lang="en">
   {% include head.html %}
   <body>
-    <div id="main-container"
-    >
-    <!-- onclick="toggleOff()" -->
-      {% include header.html %}
+    <amp-script script="amp-script-default" layout="container" data-ampdevmode>
+      <div id="main-container">
+        <!-- onclick="toggleOff()" -->
+        {% include header.html %} {{ content }} {% comment %} {% include
+        analytics.html %} {% endcomment %}
+      </div>
+    </amp-script>
+    <script id="amp-script-default" type="text/javascript" target="amp-script">
+      console.log("amp-script loaded");
+      const toggleOff = () => {
+        const mainContainer = document.getElementById("main-container");
+        mainContainer.classList.toggle("main-container--off");
+      };
 
-      {{ content }}
+      /**
+       * o botao de menu é clicado e abre o menu com os tópicos
+       */
+      {
+        var btn_toggle = document.getElementsByClassName("btn-toggle")[0];
+        var menu_toggle = document.getElementsByClassName("menu-toggle")[0];
+        var main_container = document.getElementById("main-container");
 
-      {% comment %}
-      {% include analytics.html %}
-      {% endcomment %}
-    </div>
+        main_container.addEventListener("click", function (event) {
+          menu_toggle.style.display = "none";
+          btn_toggle.style.display = "flex";
+        });
+
+        btn_toggle.addEventListener("click", function (event) {
+          event.stopPropagation();
+          menu_toggle.style.display = "flex";
+          this.style.display = "none";
+        });
+      }
+      /**
+       * o codigo abaixo cria um event listener que ao clicar em um card, ele abre o modal, e ao clicar para fechar, ele fecha o modal
+       */
+      {
+        var cardInformation =
+          document.getElementsByClassName("card-informations");
+
+        for (var i = 0; i < cardInformation.length; i++) {
+          // Get the card
+          let cardInfo = cardInformation[i];
+
+          // Get the index of the card. This is used to identify the modal
+          let index = cardInfo.id.split("-")[2];
+
+          // When the user clicks on the card, open the modal.
+          cardInfo.addEventListener("click", function () {
+            // If I click on the card, the display of the modal changes from none to block
+            document.getElementById("modal-" + index).style.display = "block";
+
+            // Add the cards-expanded class to the card
+            cardInfo.parentNode.parentNode.classList.add("cards-expanded");
+          });
+        }
+
+        // Iterate over btn-close-modal elements
+        var btnCloseModal = document.getElementsByClassName("btn-close-modal");
+        Array.from(btnCloseModal).forEach(function (btn) {
+          // When the user clicks on the button, close the modal
+          btn.addEventListener("click", function () {
+            // If I click on the button, the display of the modal changes from block to none
+            btn.parentNode.parentNode.style.display = "none";
+
+            // Remove the cards-expanded class from the card
+            btn.parentNode.parentNode.parentNode.classList.remove(
+              "cards-expanded"
+            );
+          });
+        });
+      }
+      /**
+       * o código abaixo cria um event listener que espande a time line ao clicar no botao see more, e comprime a timeline ao clicar no botao see less
+       */
+      {
+        // Purpose: Scroll page to the top when the user clicks on the button
+        // Get the button
+        var coll = document.getElementsByClassName("collapsible");
+        // array com [0] faz referência ao primeiro elemento da array
+        var see_more = document.getElementsByClassName("see-more")[0];
+        var see_less = document.getElementsByClassName("see-less")[0];
+
+        // For each button, add an "onclick" event listener
+        for (var i = 0; i < coll.length; i++) {
+          // Add the event listener
+          coll[i].addEventListener("click", function () {
+            var state_open = document
+              .getElementsByClassName("timeline")[0]
+              .classList.toggle("scrollable-out");
+            if (state_open) {
+              see_more.style.display = "none";
+              see_less.style.display = "block";
+            } else {
+              see_more.style.display = "block";
+              see_less.style.display = "none";
+            }
+          });
+        }
+      }
+    </script>
   </body>
 </html>
