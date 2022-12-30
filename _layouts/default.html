@@ -10,18 +10,16 @@
       </div>
     </amp-script>
     <script id="amp-script-default" type="text/plain" target="amp-script">
-      console.log("amp-script loaded");
-
       /**
        * O botao de menu é clicado e abre o menu com os tópicos
        */
+    {
 
       var btn_toggle = document.getElementsByClassName("btn-toggle")[0];
       var menu_toggle = document.getElementsByClassName("menu-toggle")[0];
       var main_container = document.getElementById("main-container");
 
       main_container.addEventListener("click", function (event) {
-        console.log("main_container clicked");
         // Se o menu estiver aberto, ao clicar em qualquer lugar, ele fecha
         if (menu_toggle.style.display === "flex") {
           menu_toggle.style.display = "none";
@@ -30,13 +28,13 @@
       });
 
       btn_toggle.addEventListener("click", function (event) {
-        console.log("btn_toggle clicked");
         // Adicionei um timeout de 1ms para evitar que o menu feche ao clicar no botao por causa da propagação do evento, e por causa que não da para usar o stopPropagation
         setTimeout(function () {
           menu_toggle.style.display = "flex";
           btn_toggle.style.display = "none";
         }, 1);
       });
+        }
 
       /**
        * O codigo abaixo cria um event listener que ao clicar em um card, ele abre o modal, e ao clicar para fechar, ele fecha o modal
