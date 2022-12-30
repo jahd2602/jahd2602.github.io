@@ -1,25 +1,24 @@
-@import 'bourbon/bourbon';
-@import 'syntax-highlighting';
-@import '../_sass_theme/style-default.scss';
-@import '../_sass_theme/style-hero-navbar.scss';
-@import '../_sass_theme/style-about-container.scss';
-@import '../_sass_theme/style-timeline.scss';
-@import '../_sass_theme/style-contact.scss';
+@import "bourbon/bourbon";
+@import "syntax-highlighting";
+@import "../_sass_theme/style-default.scss";
+@import "../_sass_theme/style-hero-navbar.scss";
+@import "../_sass_theme/style-about-container.scss";
+@import "../_sass_theme/style-timeline.scss";
+@import "../_sass_theme/style-contact.scss";
 
-$grey-color:       #828282;
+$grey-color: #828282;
 
 .icon {
+  > svg {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    vertical-align: middle;
 
-    > svg {
-        display: inline-block;
-        width: 16px;
-        height: 16px;
-        vertical-align: middle;
-
-        path {
-            fill: $grey-color;
-        }
+    path {
+      fill: $grey-color;
     }
+  }
 }
 
 amp-img {
@@ -32,8 +31,8 @@ amp-img {
 
 $rs: 16px;
 
-$font-serif: Georgia,Cambria,"Times New Roman",Times,'Lora', serif;
-$font-sans: "Helvetica Neue", 'Open Sans', Arial, Helvetica, sans-serif;
+$font-serif: Georgia, Cambria, "Times New Roman", Times, "Lora", serif;
+$font-sans: "Helvetica Neue", "Open Sans", Arial, Helvetica, sans-serif;
 
 @mixin respond-to($breakpoint) {
   @media only screen and (max-width: $breakpoint + px) {
@@ -75,24 +74,23 @@ body {
   }
 
   .page-links {
-      display: block;
-      position: absolute;
-      top: 10px;
-      right: $rs;
-      font-weight: 200;
-      font-style: normal;
-      font-size: 18px;
-      line-height: 30px;
+    display: block;
+    position: absolute;
+    top: 10px;
+    right: $rs;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 30px;
 
-      a {
-        text-decoration: none;
-        color: #999999;
-        &:hover {
-          color: #333333;
-        }
+    a {
+      text-decoration: none;
+      color: #999999;
+      &:hover {
+        color: #333333;
       }
+    }
   }
-
 }
 
 .blog-header {
@@ -265,11 +263,16 @@ body {
   .post-content {
     width: 100%;
     font-family: $font-serif;
-    h1, h2, h3 {
+    h1,
+    h2,
+    h3 {
       color: $dark-color;
       font-family: $font-sans;
     }
-    h3, h4, h5, h6 {
+    h3,
+    h4,
+    h5,
+    h6 {
       letter-spacing: -0.02em;
       font-weight: 700;
       font-style: normal;
@@ -282,7 +285,8 @@ body {
     h3 {
       font-size: 36px;
     }
-    h2, h1 {
+    h2,
+    h1 {
       letter-spacing: -0.02em;
       font-weight: 700;
       font-style: normal;
@@ -294,17 +298,19 @@ body {
     table {
       border-collapse: collapse;
     }
-    table, th, td {
+    table,
+    th,
+    td {
       border: 1px solid black;
       padding: 5px;
-      text-align:left;
+      text-align: left;
     }
     p {
       font-weight: 400;
       font-style: normal;
       font-size: 22px;
       line-height: 1.59;
-      letter-spacing: -.002em;
+      letter-spacing: -0.002em;
       margin-top: 30px;
       margin-bottom: 0;
       color: #333333;
@@ -356,7 +362,8 @@ body {
         padding-bottom: 3px;
       }
     }
-    ul, ol {
+    ul,
+    ol {
       padding: 0 0 30px;
       margin: 0;
     }
@@ -499,7 +506,6 @@ body {
   }
 }
 
-
 pre,
 code {
   font-size: 15px;
@@ -523,11 +529,16 @@ pre {
 }
 
 .pagination .disabled {
-    opacity: 0;
+  opacity: 0;
 }
 
 @media only screen and (max-width: $mobile-breakpoint) {
-  .site-footer{
+  .site-footer {
     padding: 30px 10px;
   }
+}
+
+amp-script {
+  /* o amp gerou uma regra que tira a opacidade, aqui estamos adicionando a opacidade */
+  opacity: 1;
 }

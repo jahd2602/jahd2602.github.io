@@ -20,6 +20,7 @@
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width,minimum-scale=1" />
+  <meta name="amp-script-src" content="sha384-P2dHJkhgmgd2qX4E6smsdh7aRJpKPPyT6uLAif4l_gpKsjwHvdhMeh2RoLV121LU">
 
   <title>
     {% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape
@@ -95,24 +96,22 @@
         visibility: visible;
       }
     }
-    amp-script {
-      /* o amp gerou uma regra que tira a opacidade, aqui estamos adicionando a opacidade */
-      opacity: 1 !important;
-    }
   </style>
-  <noscript
-    ><style amp-boilerplate>
+
+  <noscript>
+    <style amp-boilerplate>
       body {
         -webkit-animation: none;
         -moz-animation: none;
         -ms-animation: none;
         animation: none;
       }
-    </style></noscript
-  >
+    </style>
+  </noscript>
   <script async src="https://cdn.ampproject.org/v0.js"></script>
-  <script
-    src="https://kit.fontawesome.com/c29327f981.js"
-    crossorigin="anonymous"
-  ></script>
+  <link
+    rel="stylesheet"
+    href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    type="text/css"
+  />
 </head>
