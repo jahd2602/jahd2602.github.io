@@ -1,6 +1,6 @@
 version 2.0
 date: 12/18/2022
-by: [Karen Honorio](https://www.linkedin.com/in/karen-caroline-honorio-banci-198827112)
+by: [Karen Honorio](https://www.linkedin.com/in/karenchb/)
 
 # Amplify for Jekyll
 

@@ -17,7 +17,7 @@ paginate:	5 # The number of posts to show per page on your homepage
 
 name: 'Jairo Honorio'
 designed: Website designed by Karen Honorio
-karencontact: "https://www.linkedin.com/in/karen-caroline-honorio-banci-198827112/"
+karencontact: "https://www.linkedin.com/in/karenchb/"
 bio: >
   Consultant specialist in Android, LAMP Fullstack, and videogames.
   I give my best effort at every activity.
@@ -50,8 +50,14 @@ companies:
     logo: ./assets/images/logo-google.png
     start: Feb, 2022
     finish: Present
-    field: Senior Technical Solutions Consultant, Partner Engineer
-    description:
+    field: Senior Partner Engineer - Google Assistant & Bard
+    description: - Lead the technical planning, strategy and execution of Google partnerships end-to-end, from early piloting to wide-scale deployment on Google Assistant and Bard Tools/Extensions.
+      <br> - Work closely with Product Management, Engineering, Partnerships, and Program Managers to enable new features in more locales.
+      <br> - Analyze and resolve complex technical problems and roadblocks around data and tools access.
+      <br> - Identify and understand operational workflows, identify and define tool needs to enable operational scaling, and drive the development and deployment of these tools with Engineering.
+      <br> - Guarantee the technical aspects of a partner's integration (new and ongoing) by providing documentation and technical guidance.
+      <br> - Collaborate with Consumer and Engineering teams to write complex code and implement tools to improve troubleshooting efficiency and the end user experience.
+      <br> - Manage stakeholder expectations and communicate with internal teams and external partners to provide technical and business feedback as well as deliver technical solutions.
     local: Mountain View, CA 🇺🇸
     type: Job
 
@@ -258,6 +264,6 @@ companies:
 
 contact:
   title: Let's Talk!
-  description: I build product used by millions. My mission is to be as helpful as possible and bringing joy to people. I can't wait to hear about you!
+  description: I build products used by millions. My mission is to be as helpful as possible and bringing joy to people. I can't wait to hear about you!
   linkedin: Linkedin
   email: jairo@jahdsoft.com
