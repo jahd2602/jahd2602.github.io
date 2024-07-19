@@ -50,7 +50,7 @@ companies:
     logo: ./assets/images/logo-google.png
     start: Feb, 2022
     finish: Present
-    field: Senior Partner Engineer - Google Assistant & Bard
+    field: Senior Partner Engineer - Google Assistant & Gemini
     description: " → Lead the technical planning, strategy and execution of Google partnerships end-to-end, from early piloting to wide-scale deployment on Google Assistant and Bard Tools/Extensions.
       <br> → Work closely with Product Management, Engineering, Partnerships, and Program Managers to enable new features in more locales.
       <br> → Analyze and resolve complex technical problems and roadblocks around data and tools access.
@@ -67,6 +67,9 @@ companies:
     finish: Present
     field: Software Engineer
     description: Typescript, Angular, Jasmine, Mocka, Karma
+    button_name:
+    url:
+    embed:
     local: Mountain View, CA 🇺🇸
     type: Volunteer
 
@@ -76,6 +79,9 @@ companies:
     finish: Feb, 2022
     field: Senior Technical Solutions Consultant, Partner Engineer (Assistant Smart Displays)
     description:
+    button_name:
+    url:
+    embed:
     local: São Paulo, SP 🇧🇷
     type: Job
 
@@ -85,6 +91,9 @@ companies:
     finish: Oct, 2021
     field: Technical Solutions Consultant, Partner Technology Manager (Assistant Smart Displays)
     description:
+    button_name:
+    url:
+    embed:
     local: São Paulo, SP 🇧🇷
     type: Job
 
@@ -94,8 +103,23 @@ companies:
     finish: No expiration date
     field: Mentor for Godot Engine & Mentor Summit Attendee in Münich
     description:
+    button_name: Credential ↗
+    url: https://drive.google.com/file/d/0B6nppghRuqPqN3VpV0FHSzJVWGdVRG9TNXlURV9sSjA5N1hr/view?ts=6699fd37&resourcekey=0-W3o1zdX6RcvvjHTd38I4rA
+    embed:
     local: Münich, Germany 🇩🇪
-    type: volunteer
+    type: Volunteer
+
+  - name: AWS Cloud Practitioner Essentials (Second Edition)
+    logo: ./assets/images/amazon_web_services_logo.jpeg
+    start: Mar, 2019
+    finish: No expiration date
+    field: Amazon Web Services (AWS)
+    description:
+    button_name: Credential ↗
+    url: https://drive.google.com/file/d/1cEHqss5dCqDT-wP2Q8ovcjV9uX_bR5EO/view?ts=6699fdc5
+    embed:
+    local:
+    type: Certification
 
   - name: Javary Games
     logo: ./assets/images/logo-javary-games.webp
@@ -108,8 +132,11 @@ companies:
     <br> →  Game engine development using Python, C++ and OpenGL, ensuring high crash-free users (99.98%) and high performance in low-end devices (60 fps).
     <br> →  Webserver on top of Amazon Web Services' Lambda server-less platform, attached to a cloud MongoDB instance through NodeJS + Typescript.
     <br> →  Use BigQuery language with Google's DataStudio Business Intelligence platform to produce highly relevant reports that directly impact and improve our products."
+    button_name:
+    url:
+    embed:
     local: São Paulo, SP 🇧🇷
-    type: job
+    type: Job
 
   - name: Godot Engine
     logo: ./assets/images/logo-godot.png
@@ -117,8 +144,11 @@ companies:
     finish: Feb, 2021
     field: Software Engineer
     description: C++
+    button_name:
+    url:
+    embed:
     local: USA 🇺🇸
-    type: volunteer
+    type: Volunteer
 
   - name: Lead Consulting
     logo: ./assets/images/default-job.png
@@ -127,8 +157,11 @@ companies:
     field: Mobile Application Developer - Contract
     description: Developed an application for warehouse workers, that recognizes a variety of barcodes/QR codes, helps to     keep track of inventory and generates a format acceptable for a variety of ERPs.
       Kotlin, Material Design, SQLite, ORMLite.
+    button_name:
+    url:
+    embed:
     local: Lima, Peru 🇵🇪
-    type: job
+    type: Job
 
   - name: Ocean Partners UK Limited
     logo: ./assets/images/default-job.png
@@ -137,8 +170,11 @@ companies:
     field: Full-Stack JavaScript Trainer and Consultant
     description: Training in the JavaScript language, the JQuery library and the AngularJS framework, including the use of  other popular JavaScript libraries. On the server side, the usage of NodeJS, NPM and the HAPI server framework, including   the connection with SQL Server and Sharepoint.
       Consulting services to improve legacy subsystems, gaining an important speed boost and improved the overall code organization. We could reduce the loading time of a particular big form from 20+ seconds to <500 ms.
+    button_name:
+    url:
+    embed:
     local: Lima, Peru 🇵🇪
-    type: job
+    type: Job
 
   - name: CINFO UNMSM
     logo: ./assets/images/logo-cinfo.png
@@ -146,8 +182,23 @@ companies:
     finish: Mar, 2017
     field: Professor
     description: Introduced OOP and event driven programming concepts through a project-based methodology.
+    button_name:
+    url:
+    embed:
     local: Lima, Peru 🇵🇪
-    type: job
+    type: Job
+
+  - name: Agile Software Development
+    logo: ./assets/images/edx_logo.jpeg
+    start: Jan, 2017
+    finish: No expiration date
+    field: edX
+    description:
+    button_name: Credential ↗
+    url: https://drive.google.com/file/d/1safoS9Au79kRsJBEGtMAtPjX9rTaCfOq/view
+    embed:
+    local:
+    type: Certification
 
   - name: Instrategy
     logo: ./assets/images/default-job.png
@@ -155,17 +206,35 @@ companies:
     finish: Sep, 2016
     field: ETL Consultor (Business Intelligence)
     description: External consultor. Develop a business intelligence ETL strategy for a balance scorecard product deployment, and implement base ETL jobs in Talend Studio.
+    button_name:
+    url:
+    embed:
     local: Lima, Peru 🇵🇪
-    type: job
+    type: Job
 
   - name: Universidad Privada Antenor Orrego
     logo: ./assets/images/upao-antenor-orrego-logo2.jpeg
     start: Oct, 2016
     finish: No expiration date
-    field: Generador de código de servicios web basado en REST del lado del servidor a partir de archivos de configuración RAML
-    description: Flexible code generator tool to produce working web service code from a configuration file, supporting PHP (Silex, Doctrine) and Javascript (NodeJS, ExpressJS, Mongoose). Demo video https://www.youtube.com/watch?v=AufIRxuaS9w
+    field: Server-side REST-based web services code generator from RAML configuration files.
+    description: Flexible code generator tool to produce working web service code from a configuration file, supporting PHP (Silex, Doctrine) and Javascript (NodeJS, ExpressJS, Mongoose).
+    button_name:
+    url:
+    embed: <iframe width="560" height="315" src="https://www.youtube.com/embed/AufIRxuaS9w?si=tOvYQSKCUD_6WFXF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     local: Trujillo, Peru 🇵🇪
-    type: education
+    type: Publication
+
+  - name: Universidad Privada Antenor Orrego
+    logo: ./assets/images/upao-antenor-orrego-logo2.jpeg
+    start: Jul, 2015
+    finish: No expiration date
+    field: Engineer's Degree, Computer Software Engineering
+    description: Grade Software Engineer. Activities and societies First in my class from year 1.
+    button_name:
+    url:
+    embed:
+    local: Trujillo, Peru 🇵🇪
+    type: Education
 
   - name: Escalabs
     logo: ./assets/images/default-job.png
@@ -173,8 +242,11 @@ companies:
     finish: May, 2016
     field: Project Manager & Tech Lead
     description: I helped develop the business intelligence backend for the marketing area with a small team.
+    button_name:
+    url:
+    embed:
     local: Trujillo, Peru 🇵🇪
-    type: job
+    type: Job
 
   - name: Jorvex
     logo: ./assets/images/default-job.png
@@ -182,8 +254,11 @@ companies:
     finish: Aug, 2015
     field: Full stack Software Developer
     description: My job was to finish the development of a hybrid mobile app for a hardware store company. Some features included geolocation tracking of salespeople and clients, product catalog and inventory. Stack, PostgreSQL, Java Servlets, JQuery Mobile, Google Maps API.
+    button_name:
+    url:
+    embed:
     local: Trujillo, Peru 🇵🇪
-    type: job
+    type: Job
 
   - name: Treto Enterprises
     logo: ./assets/images/default-job.png
@@ -195,8 +270,11 @@ companies:
       → Design and development of AcontencerMundial.com.
       → Developed the Android app and other third party solutions, with published MVPs taking less than a week.
       → AngularJS, PHP, MySql, CentOs, Ubuntu, Android.
+    button_name:
+    url:
+    embed:
     local: San Diego, CA 🇺🇸
-    type: job
+    type: Job
 
   - name: MelodiaCristiana.com
     logo: ./assets/images/default-job.png
@@ -204,8 +282,11 @@ companies:
     finish: Jun, 2014
     field: Mobile Web Software Developer
     description: App development, published in Play Store. Development of the site administration panel. Mobile Angular UI, AngularJS, Phonegap, Android.
+    button_name:
+    url:
+    embed:
     local: Lima, Peru 🇵🇪
-    type: job
+    type: Job
 
   - name: Vanderbilt University
     logo: ./assets/images/default-job.png
@@ -213,8 +294,11 @@ companies:
     finish: No expiration date
     field: Programming Cloud Services for Android Handheld Systems
     description:
+    button_name:
+    url:
+    embed:
     local: Trujillo, Peru 🇵🇪
-    type: education
+    type: Education
 
   - name: CURSOR S.A.
     logo: ./assets/images/default-job.png
@@ -222,8 +306,11 @@ companies:
     finish: No expiration date
     field: Finalist in Apps Tournament - Sponsored by Google - Santiago de Chile
     description:
+    button_name:
+    url:
+    embed:
     local: Santiago, Chile 🇨🇱
-    type: education
+    type: Education
 
   - name: Universidad Privada Antenor Orrego
     logo: ./assets/images/upao-antenor-orrego-logo2.jpeg
@@ -231,8 +318,11 @@ companies:
     finish: No expiration date
     field: 1st Place - Programming Contest - Intermediate Level - CIISSIT
     description:
+    button_name:
+    url:
+    embed:
     local: Trujillo, Peru 🇵🇪
-    type: education
+    type: Education
 
   - name: Universidad Nacional de Trujillo
     logo: ./assets/images/default-job.png
@@ -240,8 +330,11 @@ companies:
     finish: No expiration date
     field: 1st Place - Programming Contest - A Category - SECICOMP
     description:
+    button_name:
+    url:
+    embed:
     local: Trujillo, Peru 🇵🇪
-    type: education
+    type: Education
 
   - name: JAHD Soft
     logo: ./assets/images/jahd-logo.png
@@ -249,8 +342,11 @@ companies:
     finish: Feb, 2018
     field: Founder, Software Developer and Project Manager at JAHD Soft
     description: Software development. We make Android, iOS and Web Apps. We have 5+ years working with clients from all around the world.
+    button_name:
+    url:
+    embed:
     local: Lima, Peru 🇵🇪
-    type: job
+    type: Job
 
   - name: Universidad Privada Antenor Orrego
     logo: ./assets/images/upao-antenor-orrego-logo2.jpeg
@@ -258,8 +354,11 @@ companies:
     finish: No expiration date
     field: 1st Place - Techonologic Fair - CIISS
     description:
+    button_name:
+    url:
+    embed:
     local: Trujillo, Peru 🇵🇪
-    type: education
+    type: Education
 
 
 contact:

@@ -233,7 +233,6 @@
   border-radius: 20px;
   // margin: auto;
   margin-top: 50px;
-
 }
 
 .modal-top {
@@ -286,6 +285,22 @@
   font-weight: 350;
   font-size: 1.2rem;
   line-height: 41px;
+
+  a {
+    color: $dark-color;
+    display: flex;
+    justify-content: flex-end;
+    margin: 0;
+    padding: 0;
+  }
+  a :hover {
+    color: $blue-color;
+  }
+}
+
+.modal-content-embed {
+  display: flex;
+  justify-content: center;
 }
 
 .modal-local-company {

@@ -21,10 +21,7 @@
           <h3 id="company-type">{{company.type}}</h3>
         </div>
 
-        <div
-          class="card-informations"
-          id="card-informations-{{forloop.index}}"
-          >
+        <div class="card-informations" id="card-informations-{{forloop.index}}">
           <div class="logo-card-company">
             <amp-img
               class="company-logo"
@@ -51,9 +48,7 @@
           <div class="modal-time-to-work timeline-local">
             {{company.start}} - {{company.finish}}
           </div>
-          <button
-          class="btn-default btn-close-modal"
-          >
+          <button class="btn-default btn-close-modal">
             <i class="fas fa-times"></i>
           </button>
         </div>
@@ -67,6 +62,17 @@
           </div>
           <div class="modal-content-description">
             <p>{{company.description}}</p>
+            {% if company.button_name %}
+            <a
+              class="modal-content-button-name"
+              href="{{company.url}}"
+              target="_blank"
+              >{{company.button_name}}</a
+            >
+            {% endif %}
+            <div class="modal-content-embed">
+              <div class="modal-content-embed-video">{{company.embed}}</div>
+            </div>
           </div>
           <h5 class="timeline-local modal-local-company">{{company.local}}</h5>
         </div>
@@ -80,13 +86,13 @@
       <!-- <button onclick="scroll(0, 1000)" -->
 
       <h4 class="see-more">
-        <button class="btn-see-more btn-see-less btn-default" >
+        <button class="btn-see-more btn-see-less btn-default">
           <i class="fas fa-chevron-down"></i>
         </button>
         See more
       </h4>
       <h4 class="see-less">
-        <button class="btn-see-more btn-see-less btn-default" >
+        <button class="btn-see-more btn-see-less btn-default">
           <i class="fas fa-chevron-up"></i>
         </button>
         See less
@@ -105,7 +111,8 @@
       <div class="data-social-media">
         <div class="content-linkedin">
           <a href="https://www.linkedin.com/in/jairohonorio/" target="_blank"
-            ><i class="fab fa-brands fa-linkedin-in  social-icons"></i></a>
+            ><i class="fab fa-brands fa-linkedin-in social-icons"></i
+          ></a>
           <a
             href="https://www.linkedin.com/in/jairohonorio/"
             target="_blank"
