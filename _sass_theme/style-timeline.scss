@@ -252,6 +252,13 @@
 
 .modal-header-content {
   margin: auto 10px;
+
+  h3 {
+    width: 50px;
+    font-size: 1.2rem;
+    margin: 0px;
+    font-weight: 400;
+  }
 }
 
 .modal-company-logo {
@@ -274,7 +281,7 @@
 
 .timeline-local {
   font-weight: 400;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   color: $gray-color;
   margin: 10px;
   text-align: end;
@@ -304,7 +311,7 @@
 }
 
 .modal-local-company {
-  padding: 0 10px 10px 0;
+  padding: 0 10px 16px 0;
 }
 
 //  RESPONSIVIDADE

@@ -216,10 +216,10 @@ companies:
     logo: ./assets/images/upao-antenor-orrego-logo2.jpeg
     start: Oct, 2016
     finish: No expiration date
-    field: Server-side REST-based web services code generator from RAML configuration files.
+    field: "Thesis: Server-side REST-based web services code generator from RAML configuration files."
     description: Flexible code generator tool to produce working web service code from a configuration file, supporting PHP (Silex, Doctrine) and Javascript (NodeJS, ExpressJS, Mongoose).
-    button_name:
-    url:
+    button_name: View in Github ↗
+    url: https://github.com/jahd2602/raml-js-ws-generator
     embed: <iframe width="560" height="315" src="https://www.youtube.com/embed/AufIRxuaS9w?si=tOvYQSKCUD_6WFXF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     local: Trujillo, Peru 🇵🇪
     type: Publication
@@ -229,7 +229,7 @@ companies:
     start: Jul, 2015
     finish: No expiration date
     field: Engineer's Degree, Computer Software Engineering
-    description: Grade Software Engineer. Activities and societies First in my class from year 1.
+    description: "Grade: Software Engineer. <br>Activities and societies First in my class from year 1."
     button_name:
     url:
     embed:
