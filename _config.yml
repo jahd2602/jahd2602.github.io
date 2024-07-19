@@ -301,7 +301,7 @@ companies:
     type: Education
 
   - name: CURSOR S.A.
-    logo: ./assets/images/default-job.png
+    logo: ./assets/images/cursor_3_logo.jpeg
     start: Dec, 2013
     finish: No expiration date
     field: Finalist in Apps Tournament - Sponsored by Google - Santiago de Chile
@@ -310,7 +310,7 @@ companies:
     url:
     embed:
     local: Santiago, Chile 🇨🇱
-    type: Education
+    type: Award
 
   - name: Universidad Privada Antenor Orrego
     logo: ./assets/images/upao-antenor-orrego-logo2.jpeg
@@ -322,10 +322,10 @@ companies:
     url:
     embed:
     local: Trujillo, Peru 🇵🇪
-    type: Education
+    type: Award
 
   - name: Universidad Nacional de Trujillo
-    logo: ./assets/images/default-job.png
+    logo: ./assets/images/universidad_trujillo.jpeg
     start: Feb, 2013
     finish: No expiration date
     field: 1st Place - Programming Contest - A Category - SECICOMP
@@ -334,7 +334,7 @@ companies:
     url:
     embed:
     local: Trujillo, Peru 🇵🇪
-    type: Education
+    type: Award
 
   - name: JAHD Soft
     logo: ./assets/images/jahd-logo.png
@@ -358,7 +358,7 @@ companies:
     url:
     embed:
     local: Trujillo, Peru 🇵🇪
-    type: Education
+    type: Award
 
 
 contact:

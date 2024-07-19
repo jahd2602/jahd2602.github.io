@@ -4,7 +4,7 @@
   height: 298px;
 }
 
-.title-container{
+.title-container {
   width: 500px;
   display: flex;
   justify-content: flex-end;
@@ -12,12 +12,13 @@
 }
 
 .about-title {
-  font-family: 'Helvetica Neue';
+  font-family: "Helvetica Neue";
   font-style: normal;
   color: $dark-color;
   font-weight: 700;
   font-size: 5rem;
   text-align: right;
+  margin-right: -4px;
   overflow-wrap: break-word;
   word-wrap: break-word;
   word-break: break-word;
@@ -37,21 +38,18 @@
   width: 80vw;
   height: 175px;
 }
-@media only screen and (max-width: $mobile-breakpoint){
-
-  .about-container{
+@media only screen and (max-width: $mobile-breakpoint) {
+  .about-container {
     display: flex;
     flex-direction: column;
     height: auto;
-
   }
   .title-container {
     width: 100vw;
-
   }
 
   .about-title {
-    font-family: 'Helvetica Neue';
+    font-family: "Helvetica Neue";
     font-style: normal;
     text-align: start;
     width: 100vw;
@@ -68,5 +66,4 @@
     word-break: break-word;
     width: auto;
   }
-
 }
